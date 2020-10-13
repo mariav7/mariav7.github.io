@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Création de sites web professionnels, intégration, programmation, webdesign.">
+    <meta name="author" content="Maria Villegas">
+    <title>Contactez-moi</title>
+    <link href="css/style-contact.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <script src="https://kit.fontawesome.com/5f47dca840.js" crossorigin="anonymous"></script>
+    <script src="js/script-contact.js"></script>
+</head>
+<body id="page-top">
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">
+                <img id="logo" src="img/assassins-creed.png">
+                <strong>MV</strong>
+            </a>
+            <a href="#page-top">Contact</a>
+            <a target="_blank" href="download/CV - Maria Villegas.pdf" download="CV_Maria_Villegas.pdf"><i class="fas fa-download"></i> CV</a>
+            <a href="javascript:void(0);" class="icon" onclick="mainMenu()">
+                <i class="fas fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <div class="container">
+            <form action="#" method="POST">
+              <label for="fname">Prénom NOM:</label>
+              <input type="text" name="nom" placeholder="Jean">
+
+              <label for="subject">Sujet:</label><br>
+              <input type="text" name="subject" placeholder="Info">
+          
+              <label for="lname">Email:</label>
+              <input type="text" name="email" placeholder="toto@toto.com">
+          
+              <label for="subject">Message:</label>
+              <textarea name="message" placeholder="Bonjour!..." style="height:200px"></textarea>
+          
+              <input type="submit" value="Envoyer">
+              <button type="reset" name="effacer">Effacer</button>
+              
+            </form>
+          </div>
+    </section>
+    <footer>
+        <section id="copyright">
+                <p><i class="fas fa-code"></i> made by Maria Villegas</p>
+        </section>
+    </footer>
+</body>
+</html>
